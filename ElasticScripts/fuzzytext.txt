@@ -1,0 +1,33 @@
+GET onfire_test2/_search
+{
+  "query": {
+    "match": {
+      "Q": {
+        "query": "clttnt yesterday",
+        "fuzziness": 2,
+        "prefix_length": 1
+      }
+    }
+  }
+}
+
+PUT onfire_test2
+{
+  "mappings":{
+    "properties": {
+      "Q": {
+        "type":"text"
+        , "analyzer": "english"
+      },
+      "answertype": {
+        "type": "integer"
+      },
+      "answerint": {
+        "type": "integer"
+      }
+    }
+  }
+}
+
+comment: combination of english analyzer and using the fuzziness\prefix thing will result in a lot more hits with misspellings etc.
+

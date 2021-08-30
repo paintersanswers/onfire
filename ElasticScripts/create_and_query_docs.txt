@@ -1,0 +1,28 @@
+POST onfire_test/_doc
+{
+  "Q": "How Many Clients Opened Yesterday",
+  "answertype": 1,
+  "answerint": 30
+}
+
+GET /_cat/indices?v
+
+GET onfire_test/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+GET onfire_test/_search
+{
+  "query": {
+    "match": {
+      "Q": "How Many Clients Opened Yesterday"
+    }
+  }
+}
+
+get onfire_test/_doc/Fd2ifmwBoGBRhvkKz4it
+  
+  

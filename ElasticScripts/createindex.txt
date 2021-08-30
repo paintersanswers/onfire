@@ -1,0 +1,16 @@
+PUT onfire_test
+{
+  "mappings":{
+    "properties": {
+      "Q": {
+        "type":"text"
+      },
+      "answertype": {
+        "type": "integer"
+      },
+      "answerint": {
+        "type": "integer"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+
+
+truncate table trlitigation.dockets 
+truncate table trlitigation.dockets_awardeddamages
+truncate table trlitigation.dockets_awardeddamages_type
+truncate table trlitigation.dockets_awardeddamages_type_type
+truncate table trlitigation.dockets_casetype
+truncate table trlitigation.dockets_casetype_casetype
+truncate table trlitigation.dockets_judges
+truncate table trlitigation.dockets_motions
+truncate table trlitigation.dockets_motions_casetype
+truncate table trlitigation.dockets_motions_casetype_casetype
+truncate table trlitigation.dockets_motions_decidingjudges
+truncate table trlitigation.dockets_motions_judges
+truncate table trlitigation.dockets_motions_motiontype
+truncate table trlitigation.dockets_motions_motiontype_motiontype
+truncate table trlitigation.dockets_motions_participants
+truncate table trlitigation.dockets_motions_participants_attorneys
+truncate table trlitigation.dockets_motions_participants_attorneys_lawfirm
+truncate table trlitigation.dockets_motions_participants_lawfirmswithoutattorneys
+truncate table trlitigation.dockets_outcomes
+truncate table trlitigation.dockets_outcomes_label
+truncate table trlitigation.dockets_outcomes_label_label
+truncate table trlitigation.dockets_participants
+truncate table trlitigation.dockets_participants_attorneys
+truncate table trlitigation.dockets_participants_attorneys_lawfirm
+truncate table trlitigation.dockets_participants_lawfirmswithoutattorneys
+
+GO
+
+

@@ -1,0 +1,126 @@
+@font-face {
+    
+font-family: 'robotoregular';
+    
+src: url('roboto-regular-webfont.woff2') format('woff2'),
+         
+url('roboto-regular-webfont.woff') format('woff');
+    
+font-weight: normal;
+    
+font-style: normal;
+
+
+}
+
+body {
+  font-family: 'robotoregular', sans-serif;
+  color:#191970;
+  text-align:center;
+}
+
+table {
+  width: 70%;
+}
+
+#tabledidyou {
+  width: 40%;
+}
+
+table.center {
+  margin-left:auto;
+  margin-right: auto;
+}
+
+th,td {
+  padding: 5px;
+  text-align: left;
+  font-size: 1.0em;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+tr:hover {
+background-color: #87ceeb;
+}
+
+input[type="text"] {
+    border-radius: 25px;
+    border: 1px solid #191970;
+    width: 40%;
+    height: 40px;
+    color:#191970;
+    font-size: 1.0em;
+    padding:10px;
+    outline: none;
+}
+
+input[type="submit_old"] {
+    background-color:#2196c4;
+    color: white;
+    padding: 10px;
+    border: 0;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color:#2196c4;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    outline: none;
+}
+
+input[type="text2"] {
+    border-radius: 25px;
+    border: 1px solid #191970;
+    width: 20%;
+    height: 40px;
+    color:#191970;
+    font-size: 1.0em;
+    padding:10px;
+    outline: none;
+}
+
+#verticalgap {
+    height: 50px;
+}
+
+#logo {
+    background-color: #2196c4;
+    left-align;
+    width: 200px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#questiontext {
+   color:#191970;
+   font-size: 1.5em;
+   margin: auto;
+   width: 70%;
+}
+
+#questiontext2 {
+   color:#eb2d53;
+   font-size: 1.5em;
+   margin: auto;
+   width: 70%;
+}
+
+
+#divimageanswer {
+  margin-left:auto;
+  margin-right: auto;
+}
+
+
+

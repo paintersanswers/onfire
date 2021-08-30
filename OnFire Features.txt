@@ -1,0 +1,3 @@
+1. can type in any question and search
+2. captures all questions asked including those with no answer (0 value for top question answer when no hit, value of top hit when there is one)
+3. if no hit gives you a random list of example questions from the system

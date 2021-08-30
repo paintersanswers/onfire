@@ -1,0 +1,25 @@
+PUT onfire
+{
+  "mappings":{
+    "properties": {
+      "question": {
+        "type":"text"
+        , "analyzer": "english"
+      },
+      "answertypeid": {
+        "type": "integer"
+      },
+      "singleanswer": {
+        "type":"text"
+        , "analyzer": "english"
+      },
+      "sqlquery": {
+        "type":"text"
+        , "analyzer": "english"
+      },
+      "columnnumber": {
+        "type": "integer"
+      }
+    }
+  }
+}
